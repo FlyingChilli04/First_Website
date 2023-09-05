@@ -1,0 +1,234 @@
+@media (max-width: 768px) {
+    .main_home_div {
+        display: flex;
+        flex-direction: column; /*make col when screen too smol*/
+        text-align: left; 
+        padding: 20px; 
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    margin-top: 50px;
+    text-align: center;
+    color: black;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+.home_link {
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+
+.home_link:hover {
+    text-decoration: none;
+    background-color: #777777;
+    color: #ffffff;
+    text-align: center;
+}
+
+.main_home_div {
+    display: flex;
+    font-family: Helvetica,Arial,sans-serif;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh; /* Ensure full viewport height */
+}
+
+.home_button {
+    margin: 50px;
+    flex-basis: 30%;
+}
+
+.projects_nav {
+    color: black;
+    text-decoration: none;
+    font-family: Helvetica,Arial,sans-serif;
+    display: flex;
+    justify-content: flex-end; /* Align content to the right within the flex container */
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+  }
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-family: Helvetica,Arial,sans-serif;
+    padding: 20px;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    background-color: #777777;
+    color: #ffffff;
+  }
+
+#project_1 {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    color: white;
+    font-family: Helvetica,Arial,sans-serif;
+    background-image:url('DSC07012.JPG');
+    background-position: center right;
+    min-height: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.project_links {
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+
+.project_links:hover {
+    background-color: #777777;
+    color: #ffffff;
+}
+
+#paragraph {
+    padding: 10px;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+#main_footer {
+    font-family: Helvetica,Arial,sans-serif; 
+    font-size: 80%;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.social_icons {
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.social_icon:hover {
+    color: #777777;
+}
+
+.social_media {
+    display: flex;
+    justify-content: center;
+}
+
+#about_me_title {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    color: white;
+    font-family: Helvetica,Arial,sans-serif;
+    background-image:url('DSC07011.JPG');
+    background-position: center right;
+    min-height: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#image_of_meh {
+    width: 324px;
+    height: 432px;
+    background-image: url('70082486184__EF950E86-23CB-4C3E-B023-31C36F636439.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    margin: 20px;
+}
+
+#hobbies_title {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    color: white;
+    font-family: Helvetica,Arial,sans-serif;
+    background-image:url('DSC07046.JPG');
+    background-position: center right;
+    min-height: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.hobby_image {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    position: relative; /* Establish a positioning context for the overlay */
+    width: 100%; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+    align-items: center;
+}
+
+.hobby_image__img {
+    max-width: 100%; /* Ensure the image does not exceed the container width */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Remove any extra spacing below the image */
+}
+
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    font-family: Helvetica,Arial,sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image__overlay:hover {
+    opacity: 1;
+}
+
+.image_hiking {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.image_soccer {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.image_movies {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.project_info {
+    float: center;
+    width: 70%;
+}
+
+.bold-text {
+    font-weight: bold;
+    margin-bottom: 0; 
+}
+
+.about_me_info {
+    list-style-type: none;
+}
